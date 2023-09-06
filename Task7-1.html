@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: rgb(141, 230, 245);
+        }
+        li a {
+            display: block;
+            color: #532ee8;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        li a.active {
+            background-color: #04AA6D;
+            color: orange;
+        }
+        li a:hover:not(.active) {
+            background-color: orange;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <p style="font-weight: bold;">Vertical Navigation Bar</p>
+    <ul>
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">Java</a> </li>
+        <li><a href="#">CSS</a> </li>
+        <li><a href="#">HTML</a> </li>
+        <li><a href="#">Bootstrap</a> </li>
+    </ul>
+</body>
+</html>
